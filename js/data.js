@@ -1,0 +1,21 @@
+const root = document.getElementById("root");
+const shuffle = document.getElementById("shuffle");
+const suits = ["hearts", "spades", "diamonds", "clubs"];
+const shapes = ["♥️", "♣️", "♦️", "♤"];
+let playerOneBtn = document.getElementById("player-one-btn");
+let playerTwoBtn = document.getElementById("player-two-btn");
+const playerOneCard = document.getElementById("player-one-card");
+const playerTwoCard = document.getElementById("player-two-card");
+let deck = [],
+  indexDeck = [],
+  playerOne = [],
+  playerTwo = [],
+  tempPlayerOne = [],
+  tempPlayerTwo = [],
+  iter = 0,
+  pressOne = false,
+  pressTwo = false,
+  goToPlayerGame = true,
+  win = "",
+  isWar = true,
+  count;

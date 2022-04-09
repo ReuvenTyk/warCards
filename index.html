@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <button id="shuffle">Shuffle Deck</button>
+    <div id="root">
+        <div id="player-one">
+            <div id="player-one-name">Player One</div>
+            <input type="button" id="player-one-btn" value="draw">
+            <input type="button" id="player-game-one-btn" value="draw">
+            <div id="player-one-card"></div>
+        </div>
+
+        <div id="player-two">
+            <div id="player-two-name">Player Two</div>
+            <input type="button" id="player-two-btn" value="draw">
+            <input type="button" id="player-game-two-btn" value="draw">
+            <div id="player-two-card"></div>
+        </div>
+    </div>
+    <div id="finish"></div>
+    
+<script src="./js/data.js"></script>
+<script src="./js/shuffle.js"></script>
+<script src='./js/deckGame.js'></script>
+<script src='./js/playerGame.js'></script>
+</body>
+</html>
+
+
