@@ -5,10 +5,17 @@
 }
 
 #shuffle {
-  width: 150px;
-  height: 50px;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+
+#shuffle-button {
+  height: 100px;
+  width: 150px;
 }
 #root {
   display: none;
